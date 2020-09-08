@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "Projet pour le cours serveur",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Louis-Philippe Brunet",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1"
+  }
 }
